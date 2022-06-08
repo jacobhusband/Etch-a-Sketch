@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <button class="color button">Color mode</button>
+        <button class="erase button">Eraser</button>
+        <button class="reset button">Clear</button>
+        <div class="slider-container">
+          <input
+            type="range"
+            min="16"
+            max="100"
+            value="58"
+            class="slider"
+            id="myRange"
+          />
+        </div>
+      </div>
+      <div class="center">
+        <h1 class="title">Etch-a-Sketch</h1>
+        <div id="etch-a-sketch-container"></div>
+        <p class="footer">Copyright © 2022 jacobhusband</p>
+      </div>
+      <div class="right"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
