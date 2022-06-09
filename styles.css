@@ -3,8 +3,14 @@ p {
   font-size: 70px;
   margin: 0px;
   padding: 0px;
-  color: white;
+  color: #fff;
   font-family: Roboto, arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  padding: 0;
+  color: #fff;
 }
 
 body {
@@ -20,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.2);
-  background-color: white;
+  background-color: #fff;
 }
 
 .center {
@@ -58,7 +64,7 @@ body {
   width: 100%;
   height: 15px;
   border-radius: 5px;
-  background: #d3d3d3;
+  background: #ff6fdb;
   outline: none;
   opacity: 0.7;
   -webkit-transition: 0.2s;
@@ -71,7 +77,7 @@ body {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: #fff;
   cursor: pointer;
 }
 
@@ -79,7 +85,7 @@ body {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: #fff;
   cursor: pointer;
 }
 
